@@ -2,6 +2,7 @@
 MICROSOFT STUDENT ACCELERATOR 2020 - AI & ADVANCED ANALYTICS
 
 Written by Dat Huynh
+Email: z5223470@ad.unsw.edu.au
 School of Computer Science and Engineering
 University of New South Wales
 
