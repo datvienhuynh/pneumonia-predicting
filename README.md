@@ -91,6 +91,7 @@ activation = 'softsign', epochs = 12
 ### Analysis
 - Testing activation functions ['elu', 'selu', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'softplus', 'softsign', 'linear'] shows that 'softsign' and 'linear' perform the best. However, 'softsign' is more consistent and accurate when the sizes of train and test sets increase. 
 - Also, Among optimizers ['SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam'], 'Adam' gives the most consistent and accurate performance.
+
 Noticeably, the network achieves the best performance with dataset of 100x140 images which have lower resolution than 200x280 or 300x420. Moreover, the model fit with only 2000 samples reaches higher accuracy rate at 87% with 200 test samples and 83% with 600 test samples. This is even more accurate than the model fit with full train set (6000 samples) tested by 600 test samples. It is clear that a deep neural network sometimes performs better with less data and lower resolution train images.
 
 ## 5. CONCLUSION
