@@ -68,29 +68,29 @@ Convert the TensorFlow datasets to datasets of grayscale Tensor images and label
 ## 4. OUTCOME
 ### Accuracy
 Some evaluation results when training the model with dataset of different sizes, quality, activations and optimizers:
-Size: 2000, Image Resolution: 50 x 70
+- Size: 2000, Image Resolution: 50 x 70
 activation = 'softsign', epochs = 10
   loss = 0.94, accuracy = 75.50
  
-Size: 2000, Image Resolution: 100 x 140
+- Size: 2000, Image Resolution: 100 x 140
 activation = 'softsign', epochs = 10
   loss = 0.93, accuracy = 87.00
   
-Size: 3000, Image Resolution: 100 x 140
+- Size: 3000, Image Resolution: 100 x 140
 activation = 'softsign', epochs = 10
   loss = 0.93, accuracy = 77.20
   
-Size: 5000, Image Resolution: 50 x 70
+- Size: 5000, Image Resolution: 50 x 70
 activation = 'softsign', epochs = 10
   loss = 0.95, accuracy = 78.80
 
-Size: 5000, Image Resolution: 100 x 140
+- Size: 5000, Image Resolution: 100 x 140
 activation = 'softsign', epochs = 12
   loss = 0.96, accuracy = 76.80
 
 ### Analysis
-Testing activation functions ['elu', 'selu', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'softplus', 'softsign', 'linear'] shows that 'softsign' and 'linear' perform the best. However, 'softsign' is more consistent and accurate when the sizes of train and test sets increase. 
-Also, Among optimizers ['SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam'], 'Adam' gives the most consistent and accurate performance.
+- Testing activation functions ['elu', 'selu', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'softplus', 'softsign', 'linear'] shows that 'softsign' and 'linear' perform the best. However, 'softsign' is more consistent and accurate when the sizes of train and test sets increase. 
+- Also, Among optimizers ['SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam'], 'Adam' gives the most consistent and accurate performance.
 Noticeably, the network achieves the best performance with dataset of 100x140 images which have lower resolution than 200x280 or 300x420. Moreover, the model fit with only 2000 samples reaches higher accuracy rate at 87% with 200 test samples and 83% with 600 test samples. This is even more accurate than the model fit with full train set (6000 samples) tested by 600 test samples. It is clear that a deep neural network sometimes performs better with less data and lower resolution train images.
 
 ## 5. CONCLUSION
