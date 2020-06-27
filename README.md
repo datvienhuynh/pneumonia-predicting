@@ -1,10 +1,9 @@
 # PNEUMONIA PREDICTING DEEP LEARNING PROJECT
 MICROSOFT STUDENT ACCELERATOR 2020 - AI & ADVANCED ANALYTICS
 
-Written by Dat Huynh
-Email: z5223470@ad.unsw.edu.au
-School of Computer Science and Engineering
-University of New South Wales
+- Written by Dat Huynh
+- Email: z5223470@ad.unsw.edu.au
+- School of Computer Science and Engineering, University of New South Wales
 
 ## 1. PROJECT IDEA
 This project develops a Convolutional Neural Network model for pneumonia prediction. The model is fit with chest X-ray images of both pneumonia patients and normal people. Then it predicts if a person gets pneumonia through analysing his/her chest X-ray image.
