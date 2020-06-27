@@ -2,7 +2,7 @@
 MICROSOFT STUDENT ACCELERATOR 2020 - AI & ADVANCED ANALYTICS
 
 - Written by Dat Huynh
-- Email: z5223470@ad.unsw.edu.au
+- Email: viendat.huynh@student.unsw.edu.au
 - School of Computer Science and Engineering, University of New South Wales
 
 ## 1. PROJECT IDEA
@@ -95,5 +95,3 @@ Noticeably, the network achieves the best performance with dataset of 100x140 im
 
 ## 5. CONCLUSION
 Throughout this project, I have aquired significant amount of knowledge about Deep Learning and Neural Network. I realised how important the dataset and pre-processing is to model training. I have also been able to develop Python Notebook skills in data processing and CNN model building from scratch. However, this model has been only trained and tested on average hardware so it is not possible to try the better resolution images and higher epochs to see if the performance can improve. I would like to try this on a more powerful processor in the future.
-
-
